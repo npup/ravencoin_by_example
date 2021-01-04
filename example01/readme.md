@@ -1,6 +1,6 @@
 # First off you need to download the wallet, Raven Core
 https://github.com/RavenProject/Ravencoin/releases
-It will take overs to synch the block chain, and you have to configure and re
+It will take overs to sync the block chain, and you have to configure and rei-index.
 
 # Configure your wallet
 You need to configure your wallet to index addresses and transactions and to run as a server.  
@@ -19,3 +19,13 @@ rpcpassword=supermegasecret
 
 
 # Use nodejs to connect to your wallet via RPC
+See index.js for example
+
+# How to run the example code
+npm index configfile=c\myconfig.json  
+Where myconfig.json should be something like  
+{  
+    "rpcUsername":"your username",  
+    "rpcPassword":"your password",  
+    "asset":"BEER_TOKEN"  
+ }  
