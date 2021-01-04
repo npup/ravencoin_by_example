@@ -22,6 +22,7 @@ rpcpassword=supermegasecret
 See index.js for example
 
 # How to run the example code
+npm install  
 npm index configfile=c\myconfig.json  
 Where myconfig.json should be something like  
 {  
